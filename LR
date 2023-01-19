@@ -1,0 +1,5 @@
+local args = {
+    [1] = workspace.LR300
+}
+
+game:GetService("ReplicatedStorage").Remotes.PickupItem:InvokeServer(unpack(args))
